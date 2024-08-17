@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { BackgroundBeamsDemo } from "@/components/Background";
+import { Navbar, NextUIProvider } from "@nextui-org/react";
+import NavbarComp from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +19,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <NextUIProvider>
+          <NavbarComp/>
+          <BackgroundBeamsDemo>
+            <div className="relative z-20">
+              {children} {/* Ensure children are displayed above the background */}
+            </div>
+          </BackgroundBeamsDemo>
+        </NextUIProvider>
+      </body>
     </html>
   );
 }
