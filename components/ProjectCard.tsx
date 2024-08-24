@@ -1,53 +1,64 @@
-import React from 'react'
-import { FiExternalLink, FiGithub } from "react-icons/fi";
-import Link from "next/link";
+'use client';
+import Image from "next/image";
 
-const ProjectCard = () => {
-  return (
-    <div>
-        <div
-        className="flex flex-col sm:p-6 p-4 w-[340px] sm:w-[450px] h-full bg-zinc-900 sm:rounded-[15px] rounded-[12px] border-[1px] border-[#4c4c4cc5] hover:bg-white hover:bg-opacity-[0.15] hover:border-[#ffffff6e] duration-500 ease-in-out z-20 overflow-hidden hover:scale-105"
-        onMouseEnter={() => setIsHovered({ ...isHovered, card: true })}
-        onMouseLeave={() => setIsHovered({ ...isHovered, card: false })}
-        style={{
-          boxShadow: isHovered.card ? "0px 0px 20px 0px #ffffff6e" : "",
-        }}
-      >
-        {/* Image of project */}
-        <div className="flex">
-          <Image
-            src={projectProps.projectImage}
-            alt="Picture of the author"
-            width={400}
-            height={400}
-            className="sm:rounded-xl rounded-lg hover:scale-102 duration-500 ease-in-out"
-          />
-        </div>
-
-        {/* Title of project , github link, link of site */}
-        <div className="flex justify-between items-center mt-4">
-          <div className=" bg-transparent">
-            <Link
-              href={projectProps.githubLink}
-              className=" bg-transparent"
-              target={"/"}
-            >
-              <FiGithub className="hover:scale-[1.2] text-white duration-500 ease-in-out sm:h-6 sm:w-6 h-4 w-4 hover:text-[#0CCE6B]" />
-            </Link>
-          </div>
-
-          <div className="sm:text-[18px] text-[15px] font-bold">
-            {projectProps.projectName}
-          </div>
-
-          <div>
-            <Link href={projectProps.projectLink} target="/">
-              <FiExternalLink className="hover:scale-[1.2] duration-500 ease-in-out sm:h-6 sm:w-6 h-4 w-4 text-white hover:text-[#0CCE6B]" />
-            </Link>
-          </div>
-        </div>
-    </div>
-  )
+interface TechStackItem{
+  name: string;
+  backgroundColour: string;
+  borderColour: string;
+  borderColourHover: string;
+  icon: string;
 }
 
-export default ProjectCard
+interface ProjectCardProps{
+  pId: number;
+  projectName: string;
+  githubLink: string;
+  projectLink: string;
+  projectImage: string;
+  techStack: TechStackItem[];
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  pId,
+  projectName,
+  githubLink,
+  projectLink,
+  projectImage,
+  techStack,
+}) => {
+  
+  return (
+    <div className="bg-neutral-900 text-neutral-400 rounded-lg shadow-lg p-6 max-w-sm">
+      <div className="relative w-full h-48 mb-4">
+        <Image
+          src={projectImage}
+          alt='Project Image'
+          layout="fill"
+          objectFit="cover"
+          className="rounded-lg"
+        />
+      </div>
+      <h2 className="text-xl font-semibold text-neutral-200">{projectName}</h2>
+      {/* <p className="text-neutral-500 mb-4">{project.description}</p> */}
+      <div className="flex flex-wrap gap-2 mb-4">
+        {techStack.map((tech, index) => (
+          <span
+            key={index}
+            className="bg-neutral-800 text-neutral-400 py-1 px-2 rounded text-sm"
+          >
+            {tech.name}
+          </span>
+        ))}
+      </div>
+      {projectLink ? (
+        <a href={projectLink} className="text-blue-400 hover:underline flex items-center">
+          <span>Live link</span>
+        </a>
+      ) : (
+        <span className="text-neutral-500">Not Deployed</span>
+      )}
+    </div>
+  );
+};
+
+export default ProjectCard;

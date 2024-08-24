@@ -4,7 +4,7 @@ export const projectsData = [
         projectName: "Quizzer",
         githubLink: "https://github.com/Vinit1014/quizzer",
         projectLink: "https://quizzer-gilt.vercel.app/",
-        projectImage: "/projectss/quizzer", //left
+        projectImage: "/projectss/Quizzer.png", //left
         techStack: [
             {
                 name: "Nextjs",
@@ -62,7 +62,7 @@ export const projectsData = [
         projectName: "SecureShare",
         githubLink: "https://github.com/Vinit1014/secureShare/",
         projectLink: "https://secure-share-wine.vercel.app/",
-        projectImage: "/projectss/secureshare", //left
+        projectImage: "/projectss/secureshare.png", //left
         techStack: [
             {
                 name: "Nextjs",
@@ -99,7 +99,7 @@ export const projectsData = [
         projectName: "Omeeggle",
         githubLink: "https://github.com/Vinit1014/omeegle",
         projectLink: "",
-        projectImage: "/projectss/omeggle", //left
+        projectImage: "/projectss/omeggle.png", //left
         techStack: [
             {
                 name: "Reactjs",
@@ -150,7 +150,7 @@ export const projectsData = [
         projectName: "Traffic Monitoring and Pathfinding System",
         githubLink: "https://github.com/Vinit1014/realTimeTraffic",
         projectLink: "",
-        projectImage: "/projectss/realtime", //left
+        projectImage: "/projectss/realtime.png", //left
         techStack: [
             {
                 name: "Node.js",
@@ -180,7 +180,7 @@ export const projectsData = [
         projectName: "Investcharts",
         githubLink: "https://github.com/Vinit1014/InvestCharts",
         projectLink: "",
-        projectImage: "/projectss/investCharts", //left
+        projectImage: "/projectss/investCharts.png", //left
         techStack: [
             {
                 name: "Reactjs",
@@ -203,7 +203,7 @@ export const projectsData = [
         projectName: "React-Meetups",
         githubLink: "https://github.com/Vinit1014/react-meetups",
         projectLink: "https://react-meetups-ecru.vercel.app/",
-        projectImage: "/projectss/reactmeetups", //left
+        projectImage: "/projectss/reactmeetups.png", //left
         techStack: [
             {
                 name: "Nextjs",
@@ -226,7 +226,7 @@ export const projectsData = [
         projectName: "BloggersAdda",
         githubLink: "https://github.com/Vinit1014/BloggersAdda",
         projectLink: "",
-        projectImage: "/projectss/bloggersAdda", //left
+        projectImage: "/projectss/bloggersAdda.png", //left
         techStack: [
             {
                 name: "HTML",
