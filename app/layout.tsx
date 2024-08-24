@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <NextUIProvider>
-          <NavbarComp/>
+          {/* <NavbarComp/> */}
           <BackgroundBeamsDemo>
             <div className="relative z-20">
               {children} {/* Ensure children are displayed above the background */}

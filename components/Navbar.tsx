@@ -11,21 +11,16 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
+import { Github } from 'lucide-react';
+
 
 export default function NavbarComp() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
+    "Projects",
+    "Tech",
+    "Contact"
   ];
 
   return (
@@ -47,36 +42,25 @@ export default function NavbarComp() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link color="foreground" href="#" className="text-neutral-200">
-            Features
+            Projects
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
           <Link href="#" aria-current="page" className="text-neutral-200">
-            Customers
+            Tech
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#" className="text-neutral-200">
-            Integrations
+            Contact
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
-          <Link href="#" className="text-neutral-200">
-            Login
+          <Link target="_blank" href="https://github.com/Vinit1014" className="text-neutral-200">
+            <Github />
           </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Button
-            as={Link}
-            color="primary"
-            href="#"
-            variant="flat"
-            className="bg-neutral-800 text-neutral-200"
-          >
-            Sign Up
-          </Button>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="bg-neutral-900 text-neutral-200">
