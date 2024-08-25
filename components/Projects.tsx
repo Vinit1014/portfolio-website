@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   return (
-    <div className='flex flex-wrap justify-center mt-2'>
+    <div className='flex flex-wrap justify-center  mt-2'>
       {projectsData.map((data, index) => (
         <div
           key={index}

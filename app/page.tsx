@@ -5,11 +5,7 @@ import Projects from "@/components/Projects";
 export default function Home() {
   return (
     <main className="flex flex-col items-center text-neutral-400 p-20">
-      <h1 className="">Heelo</h1>
-      <Image
-        src={awsLogo}
-        alt="Img"
-      />
+      {/* <h1 className="">Heelo</h1> */}
       <Projects/>
       {/* <div className="square-circle-5"></div> */}
     </main>

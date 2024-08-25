@@ -1,7 +1,8 @@
 'use client';
+import { Github, Link } from "lucide-react";
 import Image from "next/image";
 
-interface TechStackItem{
+interface TechStackItem {
   name: string;
   backgroundColour: string;
   borderColour: string;
@@ -9,7 +10,7 @@ interface TechStackItem{
   icon: string;
 }
 
-interface ProjectCardProps{
+interface ProjectCardProps {
   pId: number;
   projectName: string;
   githubLink: string;
@@ -28,7 +29,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   
   return (
-    <div className="bg-neutral-900 text-neutral-400 rounded-lg shadow-lg p-6 max-w-sm">
+    <div className="bg-neutral-900 text-neutral-400 rounded-lg shadow-lg p-6 max-w-sm flex flex-col h-full">
       <div className="relative w-full h-48 mb-4">
         <Image
           src={projectImage}
@@ -39,7 +40,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         />
       </div>
       <h2 className="text-xl font-semibold text-neutral-200">{projectName}</h2>
-      {/* <p className="text-neutral-500 mb-4">{project.description}</p> */}
       <div className="flex flex-wrap gap-2 mb-4">
         {techStack.map((tech, index) => (
           <span
@@ -50,13 +50,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </span>
         ))}
       </div>
-      {projectLink ? (
-        <a href={projectLink} className="text-blue-400 hover:underline flex items-center">
-          <span>Live link</span>
+      <div className="flex justify-between mt-auto">
+        {projectLink ? (
+          <a href={projectLink} target="_blank" className="hover:underline flex items-center">
+            <span><Link /></span>
+          </a>
+        ) : (
+          <span className="text-neutral-500"></span>
+        )}
+        <a href={githubLink} target="_blank">
+          <span><Github/></span>
         </a>
-      ) : (
-        <span className="text-neutral-500">Not Deployed</span>
-      )}
+      </div>
     </div>
   );
 };
