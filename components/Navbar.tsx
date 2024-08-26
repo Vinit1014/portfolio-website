@@ -13,7 +13,6 @@ import {
 } from "@nextui-org/react";
 import { Github } from 'lucide-react';
 
-
 export default function NavbarComp() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 

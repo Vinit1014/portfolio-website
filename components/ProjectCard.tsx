@@ -1,6 +1,7 @@
 'use client';
 import { Github, Link } from "lucide-react";
 import Image from "next/image";
+import {motion} from "framer-motion";
 
 interface TechStackItem {
   name: string;
@@ -29,7 +30,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   
   return (
-    <div className="bg-neutral-900 text-neutral-400 rounded-lg shadow-lg p-6 max-w-sm flex flex-col h-full">
+    <motion.div className="bg-neutral-900 text-neutral-400 rounded-lg shadow-lg p-6 max-w-sm flex flex-col h-full border-2 border-transparent"
+    whileHover={{
+      scale:1.05,
+      borderColor: "#4A5568",
+    }}
+    transition={{ duration: 0.3 }}
+    >
       <div className="relative w-full h-48 mb-4">
         <Image
           src={projectImage}
@@ -62,7 +69,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <span><Github/></span>
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

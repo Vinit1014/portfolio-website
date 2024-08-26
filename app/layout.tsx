@@ -20,14 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NextUIProvider>
-          {/* <NavbarComp/> */}
           <BackgroundBeamsDemo>
+        <NextUIProvider>
             <div className="relative z-20">
-              {children} {/* Ensure children are displayed above the background */}
+              {children} 
             </div>
-          </BackgroundBeamsDemo>
         </NextUIProvider>
+          </BackgroundBeamsDemo>
       </body>
     </html>
   );
