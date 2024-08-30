@@ -1,3 +1,35 @@
+import { DiMongodb, DiMysql, DiPostgresql } from "react-icons/di";
+import { FaAws, FaDocker, FaGithub, FaGitAlt, FaNodeJs, FaReact, FaJava } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { SiExpress, SiFirebase, SiPostman, SiRedux, SiSocketdotio, SiWebrtc, SiSupabase, SiTailwindcss, SiTypescript, SiFramer, SiPrisma } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+
+export const techData = [
+  { icon: <FaJava />, key: 1, desc: "Java" },
+  { icon: <IoLogoJavascript />, key: 2, desc: "JavaScript" },
+  { icon: <SiTypescript />, key: 3, desc: "TypeScript" },
+  { icon: <FaReact />, key: 4, desc: "React" },
+  { icon: <TbBrandNextjs />, key: 5, desc: "Next.js" },
+  { icon: <FaGitAlt />, key: 6, desc: "Git" },
+  { icon: <FaGithub />, key: 7, desc: "GitHub" },
+  { icon: <SiPostman />, key: 8, desc: "Postman" },
+  { icon: <DiMysql />, key: 9, desc: "MySQL" },
+  { icon: <SiFirebase />, key: 10, desc: "Firebase" },
+  { icon: <SiSupabase />, key: 11, desc: "Supabase" },
+  { icon: <FaNodeJs />, key: 12, desc: "Node.js" },
+  { icon: <SiExpress />, key: 13, desc: "Express.js" },
+  { icon: <DiMongodb />, key: 14, desc: "MongoDB" },
+  { icon: <SiSocketdotio />, key: 15, desc: "Socket.io" },
+  { icon: <SiWebrtc />, key: 16, desc: "WebRTC" },
+  { icon: <FaDocker />, key: 17, desc: "Docker" },
+  { icon: <SiTailwindcss />, key: 18, desc: "Tailwind CSS" },
+  { icon: <SiRedux />, key: 19, desc: "Redux" },
+  { icon: <SiFramer />, key: 20, desc: "Framer Motion" },
+  { icon: <FaAws />, key: 21, desc: "Amazon Web Services" },
+  { icon: <DiPostgresql />, key: 22, desc: "PostgreSQL" },
+  { icon: <SiPrisma />, key: 23, desc: "Prisma" },
+];
+
 export const projectsData = [
     {
         pId: 1,

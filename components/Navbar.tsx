@@ -33,28 +33,20 @@ export default function NavbarComp() {
           className="sm:hidden text-neutral-200"
         />
         <NavbarBrand>
-          <h1 className="text-neutral-200">Hello</h1>
-          <p className="font-bold text-inherit">ACME</p>
+          <span className="text-neutral-200 font-bold ml-2">Vinit | Developer</span>
         </NavbarBrand>
       </NavbarContent>
-
+      
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#" className="text-neutral-200">
-            Projects
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page" className="text-neutral-200">
-            Tech
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#" className="text-neutral-200">
-            Contact
-          </Link>
-        </NavbarItem>
+        {menuItems.map((item, index) => (
+          <NavbarItem key={index}>
+            <Link color="foreground" href="#" className="text-neutral-200">
+              {item}
+            </Link>
+          </NavbarItem>
+        ))}
       </NavbarContent>
+
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
           <Link target="_blank" href="https://github.com/Vinit1014" className="text-neutral-200">
@@ -62,6 +54,7 @@ export default function NavbarComp() {
           </Link>
         </NavbarItem>
       </NavbarContent>
+      
       <NavbarMenu className="bg-neutral-900 text-neutral-200">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>

@@ -30,10 +30,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   
   return (
-    <motion.div className="bg-neutral-900 text-neutral-400 rounded-lg shadow-lg p-6 max-w-sm flex flex-col h-full border-2 border-transparent"
+    <motion.div className="bg-neutral-900 text-neutral-400 p-6 max-w-sm flex flex-col h-full border-2 border-slate-600 rounded-2xl shadow-xl shadow-white/30" 
     whileHover={{
       scale:1.05,
-      borderColor: "#4A5568",
+      borderColor: "#e2e8f0",
     }}
     transition={{ duration: 0.3 }}
     >
