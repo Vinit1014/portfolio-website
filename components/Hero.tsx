@@ -14,26 +14,26 @@ const Hero = () => {
             I build <AnimationSkills/>
         </div>
         <p className="text-neutral-400 max-w-5xl text-center mx-auto my-4 text-md md:text-lg  relative z-10">
-        I am a final-year undergraduate and a passionate full-stack developer with a strong enthusiasm for creating impactful web applications. Proficient in range of technologies, including React, Node.js, Tailwind CSS, Next.js, TypeScript, Prisma and MongoDB. I have hands-on experience with AWS, particularly in managing EC2 instances, S3, and deploying websites. I am also proficient in Docker, with experience in building dockerized applications. I thrive in collaborative team environments and am always eager to learn new technologies to create efficient and scalable web solutions. With a solid foundation in full-stack development and cloud computing, I am ready to contribute to dynamic, live projects and make meaningful impacts.
+        I am a final-year undergraduate and a passionate full-stack developer with a strong enthusiasm for creating impactful web applications. Proficient in range of technologies and have hands-on experience with AWS, particularly in managing EC2 instances, S3, and deploying websites. I am also proficient in Docker, with experience in building dockerized applications. I thrive in collaborative team environments and am always eager to learn new technologies to create efficient and scalable web solutions. With a solid foundation in full-stack development and cloud computing, I am ready to contribute to dynamic, live projects and make impacts.
         </p>
         <div className='flex justify-center flex-wrap gap-4 md:gap-8 my-4'>
-            <a href="https://github.com/Vinit1014" target="_blank" rel="noopener noreferrer" className='flex items-center gap-1 md:gap-2 cursor-pointer'>
+            <a href="https://github.com/Vinit1014" target="_blank" rel="noopener noreferrer" className='flex items-center gap-1 md:gap-2 cursor-pointer hover:text-white'>
                 <Github className="w-5 h-5 md:w-6 md:h-6" />
                 <p className='text-center text-sm md:text-lg'>Github</p>
             </a>
             
-            <a href="https://x.com/VinitPr32845926" target="_blank" rel="noopener noreferrer" className='flex items-center gap-1 md:gap-2 cursor-pointer'>
+            <a href="https://x.com/VinitPr32845926" target="_blank" rel="noopener noreferrer" className='flex items-center gap-1 md:gap-2 cursor-pointer hover:text-white'>
                 <Twitter className="w-5 h-5 md:w-6 md:h-6" />
                 <p className='text-center text-sm md:text-lg'>Twitter</p>
             </a>
             
-            <a href="https://www.linkedin.com/in/vinit-prajapati-644890201/" target="_blank" rel="noopener noreferrer" className='flex items-center gap-1 md:gap-2 cursor-pointer'>
+            <a href="https://www.linkedin.com/in/vinit-prajapati-644890201/" target="_blank" rel="noopener noreferrer" className='flex items-center gap-1 md:gap-2 cursor-pointer hover:text-white'>
                 <Linkedin className="w-5 h-5 md:w-6 md:h-6" />
                 <p className='mt-1 text-center text-sm md:text-lg'>Linkedin</p>
             </a>
         </div>
 
-        <div className='flex justify-center'>
+        <div className='flex justify-center text-white'>
             <Button/>
         </div>
     </div>
