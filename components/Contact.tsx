@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="">
                 
             </div>
-            <div className='mt-4 text-neutral-400'>"Let's create something better together."</div>
+            <div className='mt-4 text-neutral-400'>&quot;Let's create something better together.&quot;</div>
         </div>
     )
 }
