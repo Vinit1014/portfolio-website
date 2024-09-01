@@ -40,51 +40,30 @@ export const projectsData = [
         techStack: [
             {
                 name: "Nextjs",
-                backgroundColour: "#21bad551",
-                borderColour: "#024149",
-                borderColourHover: "#088090",
                 icon: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
             },
             {
                 name: "TypeScript",
-                backgroundColour: "#d76d773b",
-                borderColour: "#6d3d77",
-                borderColourHover: "#d76d77",
                 icon: "https://img.icons8.com/?size=100&id=vMqgHSToxrJR&format=png&color=000000",
             },
             {
                 name: "Prismajs",
-                backgroundColour: "#f5d76e3b",
-                borderColour: "#939b00cc",
-                borderColourHover: "#f5d76e",
                 icon: "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000",
             },
             {
                 name: "Socketio",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/socketio.png",
             },
             {
                 name: "Postgresql",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/postgresql.png",
             },
             {
                 name: "Tailwindcss",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/tailwindcss.png",
             },
             {
                 name: "Framer",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/framer.png",
             },
         ],
@@ -94,34 +73,22 @@ export const projectsData = [
         projectName: "SecureShare",
         githubLink: "https://github.com/Vinit1014/secureShare/",
         projectLink: "https://secure-share-wine.vercel.app/",
-        projectImage: "/projectss/secureshare.png", //left
+        projectImage: "/projectss/secureShare.png", //left
         techStack: [
             {
                 name: "Nextjs",
-                backgroundColour: "#21bad551",
-                borderColour: "#024149",
-                borderColourHover: "#088090",
                 icon: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
             },
             {
                 name: "TypeScript",
-                backgroundColour: "#d76d773b",
-                borderColour: "#6d3d77",
-                borderColourHover: "#d76d77",
                 icon: "https://img.icons8.com/?size=100&id=vMqgHSToxrJR&format=png&color=000000",
             },
             {
                 name: "Supabase",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/supabase.png",
             },
             {
                 name: "Tailwindcss",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/tailwindcss.png",
             },
         ],
@@ -131,48 +98,30 @@ export const projectsData = [
         projectName: "Omeeggle",
         githubLink: "https://github.com/Vinit1014/omeegle",
         projectLink: "",
-        projectImage: "/projectss/omeggle.png", //left
+        projectImage: "/projectss/Omeggle.png", //left
         techStack: [
             {
                 name: "Reactjs",
-                backgroundColour: "#21bad551",
-                borderColour: "#024149",
-                borderColourHover: "#088090",
                 icon: "/techlogos/react.png",
             },
             {
                 name: "TypeScript",
-                backgroundColour: "#d76d773b",
-                borderColour: "#6d3d77",
-                borderColourHover: "#d76d77",
                 icon: "https://img.icons8.com/?size=100&id=vMqgHSToxrJR&format=png&color=000000",
             },
             {
                 name: "Nodejs",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/nodejs.png",
             },
             {
                 name: "Mongodb",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/mongodb.png",
             },
             {
                 name: "WebRTC",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/webrtc.png",
             },
             {
                 name: "Socket.io",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/socketio.png",
             },
         ],
@@ -186,23 +135,14 @@ export const projectsData = [
         techStack: [
             {
                 name: "Node.js",
-                backgroundColour: "#21bad551",
-                borderColour: "#024149",
-                borderColourHover: "#088090",
                 icon: "/techlogos/nodejs.png",
             },
             {
                 name: "Expressjs",
-                backgroundColour: "#d76d773b",
-                borderColour: "#6d3d77",
-                borderColourHover: "#d76d77",
                 icon: "/techlogos/expressjs.png",
             },
             {
                 name: "Mongodb",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/mongodb.png",
             }
         ],
@@ -216,16 +156,10 @@ export const projectsData = [
         techStack: [
             {
                 name: "Reactjs",
-                backgroundColour: "#21bad551",
-                borderColour: "#024149",
-                borderColourHover: "#088090",
                 icon: "/techlogos/reactjs.png",
             },
             {
                 name: "Chartjs",
-                backgroundColour: "#d76d773b",
-                borderColour: "#6d3d77",
-                borderColourHover: "#d76d77",
                 icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chart.js_logo.svg/800px-Chart.js_logo.svg.png",
             },
         ],
@@ -239,16 +173,10 @@ export const projectsData = [
         techStack: [
             {
                 name: "Nextjs",
-                backgroundColour: "#21bad551",
-                borderColour: "#024149",
-                borderColourHover: "#088090",
                 icon: "/techlogos/nextjs.png",
             },
             {
                 name: "Mongodb",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "/techlogos/mongodb.png",
             }
         ],
@@ -262,44 +190,30 @@ export const projectsData = [
         techStack: [
             {
                 name: "HTML",
-                backgroundColour: "#21bad551",
-                borderColour: "#024149",
-                borderColourHover: "#088090",
                 icon: "https://img.icons8.com/?size=100&id=ZRRdKjb2zoiK&format=png&color=000000",
             },
             {
                 name: "CSS",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
                 icon: "https://img.icons8.com/?size=100&id=111973&format=png&color=000000",
             },
             {
                 name: "Nodejs",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
+
                 icon: "/techlogos/nodejs.png",
             },
             {
                 name: "Expressjs",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
+
                 icon: "/techlogos/expressjs.png",
             },
             {
                 name: "EJS",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
+
                 icon: "https://img.icons8.com/?size=100&id=puL87ypQPxxr&format=png&color=000000",
             },
             {
                 name: "Mongodb",
-                backgroundColour: "#06b6d43b",
-                borderColour: "#004959cc",
-                borderColourHover: "#06b6d4",
+
                 icon: "/techlogos/mongodb.png",
             },
         ],
