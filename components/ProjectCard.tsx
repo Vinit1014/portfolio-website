@@ -5,9 +5,6 @@ import {motion} from "framer-motion";
 
 interface TechStackItem {
   name: string;
-  backgroundColour: string;
-  borderColour: string;
-  borderColourHover: string;
   icon: string;
 }
 
