@@ -27,16 +27,19 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   
   return (
-    <motion.div className="bg-neutral-900 text-neutral-400 p-6 max-w-sm flex flex-col h-full border-2 border-slate-600 rounded-2xl shadow-xl shadow-white/30" 
+    <motion.div className="bg-neutral-900 text-neutral-400 p-6 max-w-sm flex flex-col h-full border-2 border-slate-800 rounded-2xl" 
     whileHover={{
       scale:1.05,
-      borderColor: "#e2e8f0",
+      borderColor: "#777878",
+      // shadow-xl shadow-white/30
     }}
     transition={{ duration: 0.3 }}
     >
       <div className="relative w-full h-48 mb-4">
         <Image
           src={projectImage}
+          style={{objectFit: "contain"}}
+          fill={true}
           alt='Project Image'
           layout="fill"
           objectFit="cover"

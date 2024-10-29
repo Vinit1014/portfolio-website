@@ -4,6 +4,25 @@ import { IoLogoJavascript } from "react-icons/io";
 import { SiExpress, SiFirebase, SiPostman, SiRedux, SiSocketdotio, SiWebrtc, SiSupabase, SiTailwindcss, SiTypescript, SiFramer, SiPrisma } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
+export const links = [
+    {
+        name: "Home",
+        hash: "#",
+    },
+    {
+        name: "Projects",
+        hash: "#projects",
+    },
+    {
+        name: "Skills",
+        hash: "#skills",
+    },
+    {
+        name: "Contact",
+        hash: "#contact",
+    },
+];
+
 export const techData = [
   { icon: <FaJava />, key: 1, desc: "Java" },
   { icon: <IoLogoJavascript />, key: 2, desc: "JavaScript" },
@@ -166,14 +185,22 @@ export const projectsData = [
     },
     {
         pId: 6,
-        projectName: "React-Meetups",
-        githubLink: "https://github.com/Vinit1014/react-meetups",
-        projectLink: "https://react-meetups-ecru.vercel.app/",
-        projectImage: "/projectss/reactmeetups.png", //left
+        projectName: "NoteKeeper",
+        githubLink: "https://github.com/Vinit1014/todoApp",
+        projectLink: "https://todo-app-six-cyan-35.vercel.app/",
+        projectImage: "/projectss/noteKeeper.png",
         techStack: [
             {
-                name: "Nextjs",
-                icon: "/techlogos/nextjs.png",
+                name: "Reactjs",
+                icon: "/techlogos/reactjs.png",
+            },
+            {
+                name: "Node.js",
+                icon: "/techlogos/nodejs.png",
+            },
+            {
+                name: "Expressjs",
+                icon: "/techlogos/expressjs.png",
             },
             {
                 name: "Mongodb",
@@ -219,3 +246,22 @@ export const projectsData = [
         ],
     },
 ]
+
+
+// {
+//     pId: 6,
+//     projectName: "React-Meetups",
+//     githubLink: "https://github.com/Vinit1014/react-meetups",
+//     projectLink: "https://react-meetups-ecru.vercel.app/",
+//     projectImage: "/projectss/reactmeetups.png", //left
+//     techStack: [
+//         {
+//             name: "Nextjs",
+//             icon: "/techlogos/nextjs.png",
+//         },
+//         {
+//             name: "Mongodb",
+//             icon: "/techlogos/mongodb.png",
+//         }
+//     ],
+// },

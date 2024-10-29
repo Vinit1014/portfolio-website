@@ -1,18 +1,26 @@
-'use client'
-import React from 'react'
+
+'use client';
+import React from 'react';
 import TechComp from './TechComp';
+import { useSectionInView } from '@/lib/hooks';
 
 const Tech = () => {
+  const { ref } = useSectionInView('Skills');
+
   return (
-    <div id='tech' className='flex justify-center items-center h-max flex-col text-white md:mb-60 mb-48'>
-        <div className='md:text-5xl text-2xl font-bold'>
+    <section
+      ref={ref}
+      id="skills"
+      className="flex justify-center items-center h-max flex-col text-white md:mb-60 mb-48"
+    >
+      <div className="mt-10">
+        <h2 className="md:text-5xl font-bold text-3xl capitalize mb-0 text-center">
           My TechStack
-        </div>
-        <div className='mt-10'>
-          <TechComp/>
-        </div>
-    </div>
-  )
-}
+        </h2>
+        <TechComp />
+      </div>
+    </section>
+  );
+};
 
 export default Tech;
