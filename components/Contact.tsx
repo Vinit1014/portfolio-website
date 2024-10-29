@@ -29,7 +29,7 @@ import ButtonEmail from './ui/ButtonEmail';
 import { useSectionInView } from '@/lib/hooks';
 
 const Contact = () => {
-  const { ref } = useSectionInView('Contact', 0.7);
+  const { ref } = useSectionInView('Contact');
 
   return (
     <div
