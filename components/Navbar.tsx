@@ -125,7 +125,7 @@ const NavbarComp = () => {
             >
               <Link
                 className={clsx(
-                  'relative flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition',
+                  'relative flex w-full items-center justify-center px-3 py-3 hover:text-gray-200 transition',
                   activeSection === link.name
                     ? 'text-white'
                     : 'text-gray-400 hover:text-gray-200'

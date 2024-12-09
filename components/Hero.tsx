@@ -28,7 +28,7 @@ const Hero = () => {
                 <Github className="w-5 h-5 md:w-6 md:h-6" />
                 <p className='text-center text-sm md:text-lg'>Github</p>
             </a>
-            
+    
             <a href="https://x.com/VinitPr32845926" target="_blank" rel="noopener noreferrer" className='flex items-center gap-1 md:gap-2 cursor-pointer hover:text-white hover:scale-105'>
                 <Twitter className="w-5 h-5 md:w-6 md:h-6" />
                 <p className='text-center text-sm md:text-lg'>Twitter</p>
@@ -39,7 +39,7 @@ const Hero = () => {
                 <p className='mt-1 text-center text-sm md:text-lg'>Linkedin</p>
             </a>
         </div>
-
+                
         <div className='flex justify-center text-white'>
             <Button/>
         </div>
