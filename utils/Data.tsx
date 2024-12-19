@@ -1,7 +1,7 @@
 import { DiMongodb, DiMysql, DiPostgresql } from "react-icons/di";
 import { FaAws, FaDocker, FaGithub, FaGitAlt, FaNodeJs, FaReact, FaJava } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiExpress, SiFirebase, SiPostman, SiRedux, SiSocketdotio, SiWebrtc, SiSupabase, SiTailwindcss, SiTypescript, SiFramer, SiPrisma } from "react-icons/si";
+import { SiExpress, SiFirebase, SiPostman, SiRedux, SiSocketdotio, SiWebrtc, SiSupabase, SiTailwindcss, SiTypescript, SiFramer, SiPrisma, SiPuppeteer } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 export const links = [
@@ -47,6 +47,8 @@ export const techData = [
   { icon: <FaAws />, key: 21, desc: "Amazon Web Services" },
   { icon: <DiPostgresql />, key: 22, desc: "PostgreSQL" },
   { icon: <SiPrisma />, key: 23, desc: "Prisma" },
+  { icon: <SiPuppeteer />, key: 24, desc: "Puppeteer" },
+  
 ];
 
 export const projectsData = [
@@ -89,26 +91,38 @@ export const projectsData = [
     },
     {
         pId: 2,
-        projectName: "SecureShare",
-        githubLink: "https://github.com/Vinit1014/secureShare/",
-        projectLink: "https://secure-share-wine.vercel.app/",
-        projectImage: "/projectss/secureShare.png", //left
+        projectName: "PriceTracker",
+        githubLink: "https://github.com/Vinit1014/productPriceTracker",
+        projectLink: "https://product-price-tracker-seven.vercel.app/",
+        projectImage: "/projectss/PriceTracker.png", //left
         techStack: [
             {
-                name: "Nextjs",
-                icon: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
+                name: "Reactjs",
+                icon: "/techlogos/react.png",
             },
             {
                 name: "TypeScript",
                 icon: "https://img.icons8.com/?size=100&id=vMqgHSToxrJR&format=png&color=000000",
             },
             {
-                name: "Supabase",
-                icon: "/techlogos/supabase.png",
+                name: "Nodejs",
+                icon: "/techlogos/nodejs.png",
+            },
+            {
+                name: "Mongodb",
+                icon: "/techlogos/mongodb.png",
+            },
+            {
+                name: "Puppeteer",
+                icon: "/techlogos/puppeteer.png"
             },
             {
                 name: "Tailwindcss",
                 icon: "/techlogos/tailwindcss.png",
+            },
+            {
+                name: "Docker",
+                icon: "/techlogos/docker.png",
             },
         ],
     },
@@ -147,6 +161,31 @@ export const projectsData = [
     },
     {
         pId: 4,
+        projectName: "SecureShare",
+        githubLink: "https://github.com/Vinit1014/secureShare/",
+        projectLink: "https://secure-share-wine.vercel.app/",
+        projectImage: "/projectss/secureShare.png", //left
+        techStack: [
+            {
+                name: "Nextjs",
+                icon: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
+            },
+            {
+                name: "TypeScript",
+                icon: "https://img.icons8.com/?size=100&id=vMqgHSToxrJR&format=png&color=000000",
+            },
+            {
+                name: "Supabase",
+                icon: "/techlogos/supabase.png",
+            },
+            {
+                name: "Tailwindcss",
+                icon: "/techlogos/tailwindcss.png",
+            },
+        ],
+    },
+    {
+        pId: 5,
         projectName: "Traffic Monitoring and Pathfinding System",
         githubLink: "https://github.com/Vinit1014/realTimeTraffic",
         projectLink: "",
@@ -167,7 +206,7 @@ export const projectsData = [
         ],
     },
     {
-        pId: 5,
+        pId: 6,
         projectName: "Investcharts",
         githubLink: "https://github.com/Vinit1014/InvestCharts",
         projectLink: "",
@@ -184,7 +223,7 @@ export const projectsData = [
         ],
     },
     {
-        pId: 6,
+        pId: 7,
         projectName: "NoteKeeper",
         githubLink: "https://github.com/Vinit1014/todoApp",
         projectLink: "https://todo-app-six-cyan-35.vercel.app/",
@@ -209,7 +248,7 @@ export const projectsData = [
         ],
     },
     {
-        pId: 7,
+        pId: 8,
         projectName: "BloggersAdda",
         githubLink: "https://github.com/Vinit1014/BloggersAdda",
         projectLink: "",
