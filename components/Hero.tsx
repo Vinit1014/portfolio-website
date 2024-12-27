@@ -7,7 +7,7 @@ import { useSectionInView } from '@/lib/hooks'
 
 const Hero = () => {
 
-    const { ref } = useSectionInView('Home');
+  const { ref } = useSectionInView('Home');
 
   return (
     <div ref={ref} id='Home' className='md:mb-60 mb-48 mt-12 font-sans-serif '>
