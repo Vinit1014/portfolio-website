@@ -1,7 +1,7 @@
 import { DiMongodb, DiMysql, DiPostgresql } from "react-icons/di";
-import { FaAws, FaDocker, FaGithub, FaGitAlt, FaNodeJs, FaReact, FaJava } from "react-icons/fa";
+import { FaAws, FaDocker, FaGithub, FaGitAlt, FaNodeJs, FaReact, FaJava, FaAngular } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiExpress, SiFirebase, SiPostman, SiRedux, SiSocketdotio, SiWebrtc, SiSupabase, SiTailwindcss, SiTypescript, SiFramer, SiPrisma, SiPuppeteer } from "react-icons/si";
+import { SiExpress, SiFirebase, SiPostman, SiRedux, SiSocketdotio, SiWebrtc, SiSupabase, SiTailwindcss, SiTypescript, SiFramer, SiPrisma, SiPuppeteer, SiGrafana, SiPhp } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 export const links = [
@@ -29,25 +29,28 @@ export const techData = [
   { icon: <SiTypescript />, key: 3, desc: "TypeScript" },
   { icon: <FaReact />, key: 4, desc: "React" },
   { icon: <TbBrandNextjs />, key: 5, desc: "Next.js" },
-  { icon: <FaGitAlt />, key: 6, desc: "Git" },
-  { icon: <FaGithub />, key: 7, desc: "GitHub" },
-  { icon: <SiPostman />, key: 8, desc: "Postman" },
-  { icon: <DiMysql />, key: 9, desc: "MySQL" },
-  { icon: <SiFirebase />, key: 10, desc: "Firebase" },
-  { icon: <SiSupabase />, key: 11, desc: "Supabase" },
-  { icon: <FaNodeJs />, key: 12, desc: "Node.js" },
-  { icon: <SiExpress />, key: 13, desc: "Express.js" },
-  { icon: <DiMongodb />, key: 14, desc: "MongoDB" },
-  { icon: <SiSocketdotio />, key: 15, desc: "Socket.io" },
-  { icon: <SiWebrtc />, key: 16, desc: "WebRTC" },
-  { icon: <FaDocker />, key: 17, desc: "Docker" },
-  { icon: <SiTailwindcss />, key: 18, desc: "Tailwind CSS" },
-  { icon: <SiRedux />, key: 19, desc: "Redux" },
-  { icon: <SiFramer />, key: 20, desc: "Framer Motion" },
-  { icon: <FaAws />, key: 21, desc: "Amazon Web Services" },
-  { icon: <DiPostgresql />, key: 22, desc: "PostgreSQL" },
-  { icon: <SiPrisma />, key: 23, desc: "Prisma" },
-  { icon: <SiPuppeteer />, key: 24, desc: "Puppeteer" },
+  { icon: <FaAngular />, key: 6, desc: "Angular" },
+  { icon: <FaGitAlt />, key: 7, desc: "Git" },
+  { icon: <FaGithub />, key: 8, desc: "GitHub" },
+  { icon: <SiPostman />, key: 9, desc: "Postman" },
+  { icon: <DiMysql />, key: 10, desc: "MySQL" },
+  { icon: <SiFirebase />, key: 11, desc: "Firebase" },
+  { icon: <SiSupabase />, key: 12, desc: "Supabase" },
+  { icon: <FaNodeJs />, key: 13, desc: "Node.js" },
+  { icon: <SiPhp />, key: 14, desc: "PHP" },
+  { icon: <SiExpress />, key: 15, desc: "Express.js" },
+  { icon: <DiMongodb />, key: 16, desc: "MongoDB" },
+  { icon: <SiSocketdotio />, key: 17, desc: "Socket.io" },
+  { icon: <SiWebrtc />, key: 18, desc: "WebRTC" },
+  { icon: <FaDocker />, key: 19, desc: "Docker" },
+  { icon: <SiTailwindcss />, key: 20, desc: "Tailwind CSS" },
+  { icon: <SiRedux />, key: 21, desc: "Redux" },
+  { icon: <SiFramer />, key: 22, desc: "Framer Motion" },
+  { icon: <FaAws />, key: 23, desc: "Amazon Web Services" },
+  { icon: <DiPostgresql />, key: 24, desc: "PostgreSQL" },
+  { icon: <SiGrafana />, key: 25, desc: "Grafana" },
+  { icon: <SiPrisma />, key: 26, desc: "Prisma" },
+  { icon: <SiPuppeteer />, key: 27, desc: "Puppeteer" },
   
 ];
 
@@ -207,6 +210,28 @@ export const projectsData = [
     },
     {
         pId: 6,
+        projectName: "N.U. Engineering Works",
+        githubLink: "",
+        projectLink: "https://nuengineeringworks.com/",
+        projectImage: "/projectss/nuengineeringworks.png",
+        techStack: [
+            {
+                name: "Reactjs",
+                icon: "/techlogos/reactjs.png",
+            },
+            {
+                name: "Tailwindcss",
+                icon: "/techlogos/tailwindcss.png",
+            },
+            {
+                name: "Nodemailer",
+                icon: "/techlogos/tailwindcss.png",
+            },
+           
+        ],
+    },
+    {
+        pId: 7,
         projectName: "Investcharts",
         githubLink: "https://github.com/Vinit1014/InvestCharts",
         projectLink: "",
@@ -223,7 +248,7 @@ export const projectsData = [
         ],
     },
     {
-        pId: 7,
+        pId: 8,
         projectName: "NoteKeeper",
         githubLink: "https://github.com/Vinit1014/todoApp",
         projectLink: "https://todo-app-six-cyan-35.vercel.app/",
@@ -247,43 +272,43 @@ export const projectsData = [
             }
         ],
     },
-    {
-        pId: 8,
-        projectName: "BloggersAdda",
-        githubLink: "https://github.com/Vinit1014/BloggersAdda",
-        projectLink: "",
-        projectImage: "/projectss/bloggersAdda.png", //left
-        techStack: [
-            {
-                name: "HTML",
-                icon: "https://img.icons8.com/?size=100&id=ZRRdKjb2zoiK&format=png&color=000000",
-            },
-            {
-                name: "CSS",
-                icon: "https://img.icons8.com/?size=100&id=111973&format=png&color=000000",
-            },
-            {
-                name: "Nodejs",
+    // {
+    //     pId: 9,
+    //     projectName: "BloggersAdda",
+    //     githubLink: "https://github.com/Vinit1014/BloggersAdda",
+    //     projectLink: "",
+    //     projectImage: "/projectss/bloggersAdda.png", //left
+    //     techStack: [
+    //         {
+    //             name: "HTML",
+    //             icon: "https://img.icons8.com/?size=100&id=ZRRdKjb2zoiK&format=png&color=000000",
+    //         },
+    //         {
+    //             name: "CSS",
+    //             icon: "https://img.icons8.com/?size=100&id=111973&format=png&color=000000",
+    //         },
+    //         {
+    //             name: "Nodejs",
 
-                icon: "/techlogos/nodejs.png",
-            },
-            {
-                name: "Expressjs",
+    //             icon: "/techlogos/nodejs.png",
+    //         },
+    //         {
+    //             name: "Expressjs",
 
-                icon: "/techlogos/expressjs.png",
-            },
-            {
-                name: "EJS",
+    //             icon: "/techlogos/expressjs.png",
+    //         },
+    //         {
+    //             name: "EJS",
 
-                icon: "https://img.icons8.com/?size=100&id=puL87ypQPxxr&format=png&color=000000",
-            },
-            {
-                name: "Mongodb",
+    //             icon: "https://img.icons8.com/?size=100&id=puL87ypQPxxr&format=png&color=000000",
+    //         },
+    //         {
+    //             name: "Mongodb",
 
-                icon: "/techlogos/mongodb.png",
-            },
-        ],
-    },
+    //             icon: "/techlogos/mongodb.png",
+    //         },
+    //     ],
+    // },
 ]
 
 

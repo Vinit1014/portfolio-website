@@ -65,9 +65,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         ) : (
           <span className="text-neutral-500"></span>
         )}
-        <a href={githubLink} target="_blank">
-          <span><Github/></span>
-        </a>
+        {githubLink ? (
+          <a href={githubLink} target="_blank">
+            <span><Github/></span>
+          </a>
+        ) : (
+          <span className="text-neutral-200"></span>
+        )}
       </div>
     </motion.div>
   );

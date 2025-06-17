@@ -21,7 +21,8 @@ const Hero = () => {
             I build <AnimationSkills/>
         </div>
         <p className="text-neutral-400 max-w-5xl text-center mx-auto my-4 text-md md:text-lg  relative z-10">
-        I am a final-year undergraduate and a passionate full-stack developer with a strong enthusiasm for creating impactful web applications. Proficient in range of technologies and have hands-on experience with AWS, particularly in managing EC2 instances, S3, and deploying websites. I am also proficient in Docker, with experience in building dockerized applications. I thrive in collaborative team environments and am always eager to learn new technologies to create efficient and scalable web solutions. With a solid foundation in full-stack development and cloud computing, I am ready to contribute to dynamic, live projects and make impacts.
+        I am a full-stack developer currently working at Almashines Technologies, where I build scalable and user-centric solution to existing web application product using Angular, PHP, and MySQL. With a strong foundation in both frontend and backend development, I have also worked extensively with cloud technologies like AWS (EC2, S3) and containerization tools like Docker. I have contributed to building real-time data sync systems, automation workflows, and dynamic dashboards using platforms like Bitrix24, Google Apps Script, and Grafana. I thrive in collaborative, fast-paced environments and continuously explore new technologies to deliver impactful, production-ready solutions.
+        Recently, I have also begun exploring AI/ML technologies and their real-world applications, with a focus on integrating intelligent automation into web systems.
         </p>
         <div className='flex justify-center flex-wrap gap-4 md:gap-8 my-4'>
             <a href="https://github.com/Vinit1014" target="_blank" rel="noopener noreferrer" className='flex items-center gap-1 md:gap-2 cursor-pointer hover:text-white hover:scale-105'>

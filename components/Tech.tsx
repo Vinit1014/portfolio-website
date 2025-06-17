@@ -14,7 +14,7 @@ const Tech = () => {
       className="flex justify-center items-center h-max flex-col text-white md:mb-60 mb-48"
     >
       <div className="mt-10">
-        <h2 className="md:text-5xl font-bold text-3xl capitalize mb-0 text-center">
+        <h2 className="md:text-5xl font-bold text-3xl capitalize mb-5 text-center">
           My TechStack
         </h2>
         <TechComp />
