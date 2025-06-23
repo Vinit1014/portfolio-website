@@ -94,6 +94,136 @@ export const projectsData = [
     },
     {
         pId: 2,
+        projectName: "Omeeggle",
+        githubLink: "https://github.com/Vinit1014/omeegle",
+        projectLink: "",
+        projectImage: "/projectss/Omeggle.png", //left
+        techStack: [
+            {
+                name: "Reactjs",
+                icon: "/techlogos/react.png",
+            },
+            {
+                name: "TypeScript",
+                icon: "https://img.icons8.com/?size=100&id=vMqgHSToxrJR&format=png&color=000000",
+            },
+            {
+                name: "Nodejs",
+                icon: "/techlogos/nodejs.png",
+            },
+            {
+                name: "Mongodb",
+                icon: "/techlogos/mongodb.png",
+            },
+            {
+                name: "WebRTC",
+                icon: "/techlogos/webrtc.png",
+            },
+            {
+                name: "Socket.io",
+                icon: "/techlogos/socketio.png",
+            },
+        ],
+    },
+     {
+        pId: 3,
+        projectName: "N.U. Engineering Works",
+        githubLink: "",
+        projectLink: "https://nuengineeringworks.com/",
+        projectImage: "/projectss/nuengineeringworks.png",
+        techStack: [
+            {
+                name: "Reactjs",
+                icon: "/techlogos/reactjs.png",
+            },
+            {
+                name: "Tailwindcss",
+                icon: "/techlogos/tailwindcss.png",
+            },
+            {
+                name: "Nodemailer",
+                icon: "/techlogos/tailwindcss.png",
+            },
+           
+        ],
+    },
+    {
+        pId: 4,
+        projectName: "AI Music Generator",
+        githubLink: "https://github.com/Vinit1014/music_generator/",
+        projectLink: "https://music-generator-sigma.vercel.app/",
+        projectImage: "/projectss/music_generator.png",
+        techStack: [
+            {
+                name: "Reactjs",
+                icon: "/techlogos/reactjs.png",
+            },
+            {
+                name: "Tailwindcss",
+                icon: "/techlogos/tailwindcss.png",
+            },
+            {
+                name: "Framer Motion",
+                icon: "/techlogos/tailwindcss.png", //keeping it as it is
+            },
+             {
+                name: "Node.js",
+                icon: "/techlogos/nodejs.png",
+            },
+            {
+                name: "Expressjs",
+                icon: "/techlogos/expressjs.png",
+            },
+        ],
+    },
+    {
+        pId: 5,
+        projectName: "SecureShare",
+        githubLink: "https://github.com/Vinit1014/secureShare/",
+        projectLink: "https://secure-share-wine.vercel.app/",
+        projectImage: "/projectss/secureShare.png", //left
+        techStack: [
+            {
+                name: "Nextjs",
+                icon: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
+            },
+            {
+                name: "TypeScript",
+                icon: "https://img.icons8.com/?size=100&id=vMqgHSToxrJR&format=png&color=000000",
+            },
+            {
+                name: "Supabase",
+                icon: "/techlogos/supabase.png",
+            },
+            {
+                name: "Tailwindcss",
+                icon: "/techlogos/tailwindcss.png",
+            },
+        ],
+    },
+    {
+        pId: 6,
+        projectName: "Traffic Monitoring and Pathfinding System",
+        githubLink: "https://github.com/Vinit1014/realTimeTraffic",
+        projectLink: "",
+        projectImage: "/projectss/realtime.png", //left
+        techStack: [
+            {
+                name: "Node.js",
+                icon: "/techlogos/nodejs.png",
+            },
+            {
+                name: "Expressjs",
+                icon: "/techlogos/expressjs.png",
+            },
+            {
+                name: "Mongodb",
+                icon: "/techlogos/mongodb.png",
+            }
+        ],
+    },
+    {
+        pId: 7,
         projectName: "PriceTracker",
         githubLink: "https://github.com/Vinit1014/productPriceTracker",
         projectLink: "https://product-price-tracker-seven.vercel.app/",
@@ -130,108 +260,7 @@ export const projectsData = [
         ],
     },
     {
-        pId: 3,
-        projectName: "Omeeggle",
-        githubLink: "https://github.com/Vinit1014/omeegle",
-        projectLink: "",
-        projectImage: "/projectss/Omeggle.png", //left
-        techStack: [
-            {
-                name: "Reactjs",
-                icon: "/techlogos/react.png",
-            },
-            {
-                name: "TypeScript",
-                icon: "https://img.icons8.com/?size=100&id=vMqgHSToxrJR&format=png&color=000000",
-            },
-            {
-                name: "Nodejs",
-                icon: "/techlogos/nodejs.png",
-            },
-            {
-                name: "Mongodb",
-                icon: "/techlogos/mongodb.png",
-            },
-            {
-                name: "WebRTC",
-                icon: "/techlogos/webrtc.png",
-            },
-            {
-                name: "Socket.io",
-                icon: "/techlogos/socketio.png",
-            },
-        ],
-    },
-    {
-        pId: 4,
-        projectName: "SecureShare",
-        githubLink: "https://github.com/Vinit1014/secureShare/",
-        projectLink: "https://secure-share-wine.vercel.app/",
-        projectImage: "/projectss/secureShare.png", //left
-        techStack: [
-            {
-                name: "Nextjs",
-                icon: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
-            },
-            {
-                name: "TypeScript",
-                icon: "https://img.icons8.com/?size=100&id=vMqgHSToxrJR&format=png&color=000000",
-            },
-            {
-                name: "Supabase",
-                icon: "/techlogos/supabase.png",
-            },
-            {
-                name: "Tailwindcss",
-                icon: "/techlogos/tailwindcss.png",
-            },
-        ],
-    },
-    {
-        pId: 5,
-        projectName: "Traffic Monitoring and Pathfinding System",
-        githubLink: "https://github.com/Vinit1014/realTimeTraffic",
-        projectLink: "",
-        projectImage: "/projectss/realtime.png", //left
-        techStack: [
-            {
-                name: "Node.js",
-                icon: "/techlogos/nodejs.png",
-            },
-            {
-                name: "Expressjs",
-                icon: "/techlogos/expressjs.png",
-            },
-            {
-                name: "Mongodb",
-                icon: "/techlogos/mongodb.png",
-            }
-        ],
-    },
-    {
-        pId: 6,
-        projectName: "N.U. Engineering Works",
-        githubLink: "",
-        projectLink: "https://nuengineeringworks.com/",
-        projectImage: "/projectss/nuengineeringworks.png",
-        techStack: [
-            {
-                name: "Reactjs",
-                icon: "/techlogos/reactjs.png",
-            },
-            {
-                name: "Tailwindcss",
-                icon: "/techlogos/tailwindcss.png",
-            },
-            {
-                name: "Nodemailer",
-                icon: "/techlogos/tailwindcss.png",
-            },
-           
-        ],
-    },
-    {
-        pId: 7,
+        pId: 8,
         projectName: "Investcharts",
         githubLink: "https://github.com/Vinit1014/InvestCharts",
         projectLink: "",
@@ -248,7 +277,7 @@ export const projectsData = [
         ],
     },
     {
-        pId: 8,
+        pId: 9,
         projectName: "NoteKeeper",
         githubLink: "https://github.com/Vinit1014/todoApp",
         projectLink: "https://todo-app-six-cyan-35.vercel.app/",
