@@ -5,6 +5,7 @@ import { BackgroundBeamsDemo } from "@/components/Background";
 import { NextUIProvider } from "@nextui-org/react";
 import NavbarComp from "@/components/Navbar";
 import ActiveSectionContextProvider from "@/context/ActiveSectionContext";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
               <NavbarComp/>
                 <div className="relative z-20">
                   {children} 
+                  <Analytics/>
                 </div>
             </NextUIProvider>
           </BackgroundBeamsDemo>
